@@ -5,7 +5,7 @@ from winreg import HKEY_CURRENT_USER, OpenKey, KEY_ALL_ACCESS, SetValueEx, REG_S
 import sys
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-s.bind(('0.0.0.0', 16865))
+s.bind(('0.0.0.0', 16865)) # Default port, you can change it.
 s.listen(5)
 
 
