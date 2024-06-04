@@ -1,4 +1,4 @@
-UnnamedRAT is a remote administration tool that works inside local networks.
+UnnamedRAT is a remote administration tool that works within a local network.
 
 1. Compile UnnamedRAT.py with PyInstaller(or something else)
 2. Download and run it on PC you want to have remote access to. The program will add itself into autolaunch and open 16865 port, waiting for command client to connect.
